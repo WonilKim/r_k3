@@ -1,4 +1,5 @@
-# Chapter 01
+# Chapter 01  (2023.06.13)
+# 패키지 설정 및 개발 환경 확인
 
 # 실습: R 패키지 보기 
 dim(available.packages())
@@ -6,7 +7,7 @@ dim(available.packages())
 # 실습: R ㅍ키지 목록 보기 
 available.packages()
 
-# 실습: R Session 보기 
+# 실습: R Session 보기 => R 개발환경 공유
 sessionInfo()
 
 # 실습: stringr 패키지 설치 
@@ -38,7 +39,7 @@ lines(density(Nile))
 
 # 실습: 히스토그램을 파일로 저장하기 
 par(mfrow = c(1, 1))
-pdf("C:/Rwork/batch.pdf")
+pdf("C:/Users/nonel/Workspace/r_k3/batch.pdf")
 hist(rnorm(20))
 dev.off()
 
@@ -216,7 +217,7 @@ mean(x)
 getwd()
 
 # 작업공간 변경 
-setwd("C:/Rwork/Part-I")
+# setwd("C:/Rwork/Part-I")
 data <- read.csv("test.csv", header = T)
 data
 

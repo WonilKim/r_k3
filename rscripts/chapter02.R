@@ -15,9 +15,9 @@ rep(1:3, each = 3)
 # 실습: union(), setdiff() 그리고 intersect() 함수를 이용한 벡터 자료 처리 
 x <- c(1, 3, 5, 7)
 y <- c(3, 5)
-union(x, y)
-setdiff(x, y)
-intersect(x, y)
+union(x, y)   # 합집합
+setdiff(x, y) # 차집합
+intersect(x, y) # 교집합
 
 
 # 실습: 숫자형, 문자형 논리형 벡터 생성
